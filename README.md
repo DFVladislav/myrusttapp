@@ -248,6 +248,8 @@ docker build -t my-rust-app:latest .
 ```shell
 docker images | grep my-rust-app
 ```
+
+![alt text](image.png)
 Запуск контейнера:
 ```shell
 docker run --rm my-rust-app:latest
